@@ -1,0 +1,12 @@
+{
+  "name": "evaluacion-modulo4-avanzada",
+  "version": "1.0.0",
+  "description": "Mini API REST de clientes interesados para Lateral Lab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

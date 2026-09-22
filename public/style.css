@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: #f5f5f2;
+
+    color: #222;
+}
+
+
+.container {
+    width: min(900px, 92%);
+
+    margin: 0 auto;
+}
+
+
+.hero {
+    padding: 65px 0 50px;
+
+    background: #1f2933;
+
+    color: white;
+}
+
+
+.eyebrow {
+    letter-spacing: 3px;
+
+    font-size: 13px;
+}
+
+
+.hero h1 {
+    font-size: 42px;
+
+    max-width: 700px;
+}
+
+
+.intro {
+    font-size: 18px;
+
+    line-height: 1.6;
+
+    max-width: 620px;
+}
+
+
+main {
+    padding: 35px 0;
+}
+
+
+.card {
+    background: white;
+
+    border-radius: 14px;
+
+    padding: 28px;
+
+    margin-bottom: 24px;
+
+    box-shadow:
+        0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+
+form {
+    display: grid;
+
+    gap: 10px;
+}
+
+
+label {
+    font-weight: 600;
+
+    margin-top: 8px;
+}
+
+
+input {
+    padding: 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+
+button {
+    margin-top: 14px;
+
+    padding: 14px;
+
+    border: 0;
+
+    border-radius: 8px;
+
+    background: #1f2933;
+
+    color: white;
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+#respuesta {
+    margin-top: 20px;
+
+    padding: 14px;
+
+    border-radius: 8px;
+}
+
+
+.success {
+    background: #e8f5e9;
+}
+
+
+.error {
+    background: #ffebee;
+}
+
+
+li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    color: #666;
+}

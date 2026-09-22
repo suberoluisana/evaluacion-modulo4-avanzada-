@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lateral Lab | Registro de interesados</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="container">
+
+            <p class="eyebrow">LATERAL LAB</p>
+
+            <h1>Conectemos para crear oportunidades.</h1>
+
+            <p class="intro">
+                Déjanos tus datos para conocer tu interés
+                y formar parte de nuestra red.
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="card">
+
+            <h2>Registro de personas interesadas</h2>
+
+            <p>
+                Completa el formulario. La información será enviada
+                al servidor y almacenada para mostrar el historial.
+            </p>
+
+
+            <form id="clienteForm">
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    required
+                    placeholder="Escribe tu nombre"
+                >
+
+
+                <label for="edad">
+                    Edad
+                </label>
+
+                <input
+                    type="number"
+                    id="edad"
+                    name="edad"
+                    min="1"
+                    required
+                    placeholder="Ej. 25"
+                >
+
+
+                <label for="ciudad">
+                    Ciudad
+                </label>
+
+                <input
+                    type="text"
+                    id="ciudad"
+                    name="ciudad"
+                    required
+                    placeholder="Escribe tu ciudad"
+                >
+
+
+                <button type="submit">
+                    Registrar interés
+                </button>
+
+            </form>
+
+
+            <div
+                id="respuesta"
+                aria-live="polite"
+            ></div>
+
+        </section>
+
+
+        <section class="card">
+
+            <h2>Últimos registros</h2>
+
+            <ul id="listaClientes"></ul>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Lateral Lab · Desarrollo local + innovación · 2026
+        </p>
+
+    </footer>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
